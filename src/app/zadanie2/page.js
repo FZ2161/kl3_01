@@ -11,8 +11,9 @@ export default function Color() {
             // }
             // else setColor("bg-gray-700") 
             //////////////////////////////// TO NA DOLE JEST LEPSZE I JEST NA KARTKÓWKE!!!!!!!!
+            //tailwind z dokumentacją
 
-            setColor(color == "bg-black" || color == "bg-gray-700"? "bg-white" : "bg-gray-700" )/* KARTKÓWKA: taki magiczny if */
+            setColor(color == "bg-black" || color == "bg-gray-700"? "bg-yellow-600" : "bg-gray-700" )/* KARTKÓWKA: taki magiczny if */
         }
     return(
         <>
