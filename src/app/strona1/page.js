@@ -12,6 +12,9 @@ export default function Strona1(){
     const handleClick = () =>{
         setLicznik(licznik +1)
     }
+    const odejmij = () => {
+        setLicznik(licznik-1)
+    }
     return(
         //można tylko 1 gółwny element, np. div
         <>
@@ -19,6 +22,10 @@ export default function Strona1(){
                 {licznik}
             </h1>
             <button onClick={handleClick}>powiększ licznik</button>
+            {/* odświerzenie strony resetuje licznik do default */}
+            <br/>
+            <button onClick={odejmij}>zmniejsz licznik</button>
+
         </>
     )
 }
