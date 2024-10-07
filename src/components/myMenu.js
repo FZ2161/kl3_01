@@ -14,6 +14,8 @@ export default function Menu() {
             <Link href="/zadanie3">Zadanie 3</Link>
 
             <Link href="/zadanie4">Zadanie 4</Link>
+
+            <Link href="/zadanie5kraje">|Zadanie 5 - kraje|</Link>
             
             <a href="/strona1">zwykły link</a>
 
